@@ -199,7 +199,7 @@ permited=$(curl -sSL "https://raw.githubusercontent.com/hhportugames/TESTETSET/m
   echo -e "   Mediante $link Autorida por @ChumoGH"
   echo -e "      SI DESEAS USAR EL BOTGEN CONTACTE A @ChumoGH"
   echo -e "\e[32m=====================================================\n\n\n\e[0m"
-  v1=$(curl -sSL "https://www.dropbox.com/s/blxo0jifysvyrey/v-new.log")
+  v1=$(curl -sSL "https://raw.githubusercontent.com/hhportugames/TESTETSET/main/dropbox/v-new.log") ##https://www.dropbox.com/s/blxo0jifysvyrey/v-new.log
   [[ ! -e /bin/downloadbot ]] && {
   [[ $link = 'https://raw.githubusercontent.com' ]] && echo "https://raw.githubusercontent.com" > /bin/downloadbot || echo "$(ofus $keybot)" > /bin/downloadbot
   chmod +x /bin/downloadbot
