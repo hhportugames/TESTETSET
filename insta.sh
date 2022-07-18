@@ -176,7 +176,7 @@ msg -bar
 # permited=$(curl -sSL "$(ofus $keybot)/NetVPS/Bot-Gen-MultiScript/main/Control-IP")
 # [[ -z $keybot ]] && echo $link > /bin/downloadbot  || echo -e "$(ofus $keybot)" > /bin/downloadbot 
 # }
-permited=$(curl -sSL "https://raw.githubusercontent.com/NetVPS/Bot-Gen-MultiScript/main/Control-IP") 
+permited=$(curl -sSL "https://raw.githubusercontent.com/hhportugames/TESTETSET/main/Control-IP") 
  [[ $(echo $permited|grep "${IP}") = "" ]] && {
   clear
   echo -e "\n\n"
