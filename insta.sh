@@ -216,7 +216,7 @@ permited=$(curl -sSL "https://raw.githubusercontent.com/hhportugames/TESTETSET/m
 
 [[ ! -e /etc/http-instas ]] && echo '0' > /etc/http-instas || let sd=$(cat < /etc/http-instas)-$coo && echo $sd > /etc/http-instas
 [[ -d $SCPT_DIR ]] && rm -rf $SCPT_DIR
-SCPresq="aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vcy9wNXYyaGV2cmZqM3BkeGIv"
+SCPresq="aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vcy9neTE1M3k4bzY1dXFoazgvbGlzdGE/ZGw9MA=="
 SUB_DOM='base64 -d'
 fun_bar1 () {
 comando[0]="$1"
