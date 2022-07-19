@@ -418,9 +418,9 @@ rm $HOME/lista-arq
 wget --no-check-certificate -O /etc/SCRIPT/gerar.sh -q https://www.dropbox.com/s/25g993sfwayphr8/menu-gerar.sh && chmod +x /etc/SCRIPT/gerar.sh
 echo 'cd /etc/SCRIPT && ./gerar.sh' > /usr/bin/gerar
 echo 'source <(curl -sSL https://raw.githubusercontent.com/hhportugames/TESTETSET/main/free-men.sh)' > /bin/ejecutar/echo-ram.sh
-echo 'wget -q -O /bin/ejecutar/v-new.log https://www.dropbox.com/s/8tizr516cvkwss6/v-new.log?dl=0' >> /bin/ejecutar/echo-ram.sh && bash /bin/ejecutar/echo-ram.sh
+echo 'wget -q -O /bin/ejecutar/v-new.log https://www.dropbox.com/s/rzt9jqvexlxj7y5/v-new.log?dl=0' >> /bin/ejecutar/echo-ram.sh && bash /bin/ejecutar/echo-ram.sh
 chmod +x /bin/ejecutar/echo-ram.sh && bash /bin/ejecutar/echo-ram.sh
-wget --no-check-certificate -q -O /var/www/html/index.html https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/html/index.html
+wget --no-check-certificate -q -O /var/www/html/index.html https://raw.githubusercontent.com/hhportugames/TESTETSET/main/index.html
 chmod +x /usr/bin/gerar
 echo "cd /etc/SCRIPT && ./gerar.sh" > /usr/bin/keygen && chmod +x /usr/bin/keygen
 echo -e "\033[1;33m Perfecto, utilize el comando \033[1;31mkeygen o gerar \033[1;33mpara administrar sus keys y
